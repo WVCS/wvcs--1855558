@@ -1,0 +1,43 @@
+ <style>
+  li.nav {
+  float: right;
+  background-color: gold;
+  display: inline;
+}
+li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+ul.circle {
+  list-style-type: circle;
+  float: right;
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  background-color: gold;
+  top: 0;
+}
+html, body {
+  margin: 0;
+}
+
+    
+  </style>
